@@ -1,0 +1,55 @@
+{
+  "name": "open-sesame",
+  "description": "Add your public IP address to AWS security group ingress",
+  "keywords": [
+    "aws",
+    "secgroup",
+    "ip",
+    "ingress"
+  ],
+  "version": "0.0.1",
+  "homepage": "http://github.com/cliffano/open-sesame",
+  "author": "Cliffano Subagio <blah@cliffano.com> (http://blog.cliffano.com)",
+  "contributors": [
+    "All contributors (https://github.com/cliffano/open-sesame/graphs/contributors)"
+  ],
+  "main": "./lib/jenkins",
+  "bin": {
+    "open-sesame": "./bin/open-sesame"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cliffano/open-sesame.git"
+  },
+  "bugs": {
+    "url": "http://github.com/cliffano/open-sesame/issues"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.11.0",
+    "bagofcli": "^1.0.0",
+    "cidr-matcher": "^1.0.3",
+    "cron": "^1.1.1",
+    "ipify": "^1.1.0"
+  },
+  "devDependencies": {
+    "buster-node": "^0.7.1",
+    "proxyquire": "^1.7.10",
+    "referee": "^1.2.0"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/cliffano/open-sesame/raw/master/LICENSE"
+    }
+  ]
+}

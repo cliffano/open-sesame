@@ -1,0 +1,20 @@
+{
+  "options": [
+    { "arg": "-p, --port <port>", "desc": "Port number of ingress rule, default: 22" },
+    { "arg": "-o, --protocol <protocol>", "desc": "Protocol, default: tcp" },
+    { "arg": "-d, --dry-run", "desc": "Dry run, default: false" },
+    { "arg": "-c, --cron <cron>", "desc": "Cron schedule expression" }
+  ],
+  "commands": {
+    "aws": {
+      "desc": "Add public IP address to AWS security group ingress",
+      "options": [
+        { "arg": "-r, --region <region>", "desc": "AWS region, default: ap-southeast-2" },
+        { "arg": "-s, --secgroup-id <secGroupId>", "desc": "AWS security group ID" }
+      ],
+      "examples": [
+        "open-sesame aws --region ap-southeast-2 --secgroup-id sg-12345678 --port 22"
+      ]
+    }
+  }
+}
