@@ -31,9 +31,9 @@
     "test": "./test"
   },
   "dependencies": {
-    "aws-sdk": "^2.11.0",
+    "async": "^2.6.0",
+    "aws-sdk": "^2.176.0",
     "bagofcli": "^1.0.0",
-    "cidr-matcher": "^1.0.3",
     "cron": "^1.1.1",
     "ipify": "^1.1.0"
   },
