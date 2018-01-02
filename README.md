@@ -7,12 +7,12 @@
 <br/>
 [![npm Badge](https://nodei.co/npm/open-sesame.png)](http://npmjs.org/package/open-sesame)
 
-open-sesame
+Open Sesame
 -----------
 
-open-sesame is a CLI tool for adding your public IP address to AWS security group's inbound rules.
+Open Sesame is a CLI tool for adding your public IP address to AWS security group's inbound rules.
 
-This is handy when you're sitting behind a dynamic IP (e.g. you're using a Wi-Fi dongle) and would like to access an AWS resource.
+This is handy when you're sitting behind a dynamic IP (e.g. you're using a Wi-Fi dongle) and would like to allow access to some AWS resources through a security group.
 
 Installation
 ------------
@@ -22,9 +22,13 @@ Installation
 Usage
 -----
 
-Run open-sesame:
+Add inbound rule through specified security group, rule will be named 'open-sesame':
 
-    open-sesame aws <job>
+    open-sesame aws --region ap-southeast-2 --secgroup-id sg-12345678
+
+Add inbound rule with specified port and name:
+
+    open-sesame aws --region ap-southeast-2 --secgroup-id sg-12345678 --port 22 --name some-wi-fi
 
 Colophon
 --------
