@@ -14,6 +14,8 @@ Open Sesame is a CLI tool for adding your public IP address to AWS security grou
 
 This is handy when you're sitting behind a dynamic IP (e.g. you're using a Wi-Fi dongle) and would like to allow access to some AWS resources through a security group.
 
+![Console command screenshot](https://raw.github.com/cliffano/open-sesame/master/screenshots/console.png)
+
 Installation
 ------------
 
