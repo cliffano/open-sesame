@@ -35,7 +35,7 @@
     "aws-sdk": "^2.176.0",
     "bagofcli": "^1.0.0",
     "cron": "^1.1.1",
-    "ipify": "^1.1.0"
+    "ipify": "^2.0.0"
   },
   "devDependencies": {
     "buster-node": "^0.7.1",
