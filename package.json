@@ -7,7 +7,7 @@
     "ip",
     "ingress"
   ],
-  "version": "1.0.1",
+  "version": "1.1.0",
   "homepage": "http://github.com/cliffano/open-sesame",
   "author": "Cliffano Subagio <blah@cliffano.com> (http://blog.cliffano.com)",
   "contributors": [
@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "buster-node": "^0.7.1",
-    "proxyquire": "^1.7.10",
+    "proxyquire": "^2.0.1",
     "referee": "^1.2.0"
   },
   "scripts": {},
