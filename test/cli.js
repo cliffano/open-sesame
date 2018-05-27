@@ -38,7 +38,7 @@ buster.testCase('cli - _aws', {
       }
     };
     this.mockProcess.expects('exit').once().withExactArgs(0);
-    this.stub(OpenSesame.prototype, 'aws', function (region, secgroupId, cb) {
+    this.stub(OpenSesame.prototype, 'aws', function (region, secgroupIds, cb) {
       assert.equals(region, 'ap-southeast-2');
       assert.equals(secgroupIds, 'sg-12345678');
       cb();
