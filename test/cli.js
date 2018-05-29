@@ -29,7 +29,7 @@ buster.testCase('cli - _aws', {
   'should pass args as AWS options': function () {
     var args = {
       region: 'ap-southeast-2',
-      secgroupIds: 'sg-12345678',
+      secgroupId: 'sg-12345678',
       parent: {
         port: 22,
         protocol: 'ssh',
@@ -38,9 +38,9 @@ buster.testCase('cli - _aws', {
       }
     };
     this.mockProcess.expects('exit').once().withExactArgs(0);
-    this.stub(OpenSesame.prototype, 'aws', function (region, secgroupIds, cb) {
+    this.stub(OpenSesame.prototype, 'aws', function (region, secgroupId, cb) {
       assert.equals(region, 'ap-southeast-2');
-      assert.equals(secgroupIds, ['sg-12345678']);
+      assert.equals(secgroupId, ['sg-12345678']);
       cb();
     });
     this.stub(bag, 'command', function (base, actions) {

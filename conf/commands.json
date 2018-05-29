@@ -11,7 +11,7 @@
       "desc": "Add public IP address to AWS security group ingress",
       "options": [
         { "arg": "-r, --region <region>", "desc": "AWS region, default: ap-southeast-2" },
-        { "arg": "-s, --secgroup-ids <secGroupIds>", "desc": "AWS security group IDs, separated by comma" }
+        { "arg": "-s, --secgroup-id <secGroupId>", "desc": "AWS security group ID. Also support comma separated multiple security group IDs" }
       ],
       "examples": [
         "open-sesame aws --region ap-southeast-2 --secgroup-id sg-12345678",
