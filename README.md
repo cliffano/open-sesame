@@ -44,7 +44,7 @@ Colophon
 Build reports:
 
 * [Code complexity report](http://cliffano.github.io/open-sesame/complexity/plato/index.html)
-* [Unit tests report](http://cliffano.github.io/open-sesame/test/buster.out)
-* [Test coverage report](http://cliffano.github.io/open-sesame/coverage/buster-istanbul/lcov-report/lib/index.html)
-* [Integration tests report](http://cliffano.github.io/open-sesame/test-integration/cmdt.out)
-* [API Documentation](http://cliffano.github.io/open-sesame/doc/dox-foundation/index.html)
+* [Unit tests report](http://cliffano.github.io/open-sesame/test/mocha.txt)
+* [Test coverage report](http://cliffano.github.io/open-sesame/coverage/c8/index.html)
+* [Integration tests report](http://cliffano.github.io/open-sesame/test-integration/cmdt.txt)
+* [API Documentation](http://cliffano.github.io/open-sesame/doc/jsdoc/index.html)
