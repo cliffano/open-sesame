@@ -1,4 +1,4 @@
-test | /opt/hostedtoolcache/node/17.9.1/x64/lib/node_modules/bob/node_modules/.bin/mocha --colors --reporter spec --recursive test/
+test | /opt/hostedtoolcache/node/16.15.1/x64/lib/node_modules/bob/node_modules/.bin/mocha --colors --reporter spec --recursive test/
 
 [0m[0m
 [0m  cli - exec[0m
@@ -8,16 +8,16 @@ test | /opt/hostedtoolcache/node/17.9.1/x64/lib/node_modules/bob/node_modules/.b
   [32m  [32m✔[39m[0m[90m should pass args as AWS options[0m
 
 
-[92m [0m[32m 2 passing[0m[90m (14ms)[0m
+[92m [0m[32m 2 passing[0m[90m (22ms)[0m
 
 SUCCESS | exit code 0
 ----------------|---------|----------|---------|---------|-------------------
 File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------------|---------|----------|---------|---------|-------------------
-All files       |   42.46 |       60 |   42.85 |   42.46 |                   
- lib            |   70.94 |    55.55 |      60 |   70.94 |                   
+All files       |   42.18 |       60 |   42.85 |   42.18 |                   
+ lib            |   69.42 |    55.55 |      60 |   69.42 |                   
   cli.js        |     100 |      100 |     100 |     100 |                   
-  opensesame.js |   56.41 |    33.33 |   33.33 |   56.41 | 37-60,63-72       
+  opensesame.js |   54.87 |    33.33 |   33.33 |   54.87 | 38-61,64-76       
  lib/service    |   17.77 |      100 |       0 |   17.77 |                   
   aws.js        |   17.77 |      100 |       0 |   17.77 | 13-17,25-130      
 ----------------|---------|----------|---------|---------|-------------------
