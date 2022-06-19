@@ -1,7 +1,11 @@
 - params:
-    opensesame: ../../../../../bin/open-sesame
+    opensesame: ../../../../../bin/open-sesame.js
+
+- description: Command help should display help information
+  command: '{opensesame} --help'
+  exitcode: 1
+  output: 'aaa'
 
 - description: Command aws should display error message when security group does not exist
   command: '{opensesame} aws --region ap-southeast-2 --secgroup-id sg-12345678'
   exitcode: 1
-  output: 'Unable to find security group'

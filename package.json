@@ -1,5 +1,6 @@
 {
   "name": "open-sesame",
+  "type": "module",
   "description": "Add your public IP address to AWS security group ingress",
   "keywords": [
     "aws",
@@ -15,7 +16,7 @@
   ],
   "main": "./lib/jenkins",
   "bin": {
-    "open-sesame": "./bin/open-sesame"
+    "open-sesame": "./bin/open-sesame.js"
   },
   "preferGlobal": true,
   "repository": {
@@ -31,20 +32,19 @@
     "test": "./test"
   },
   "dependencies": {
-    "async": "^2.6.0",
+    "async": "^3.2.0",
     "aws-sdk": "^2.176.0",
-    "bagofcli": "^1.0.0",
+    "bagofcli": "^2.3.0",
     "cron": "^1.1.1",
     "ipify": "^2.0.0"
   },
   "devDependencies": {
-    "buster-node": "^0.7.1",
-    "proxyquire": "^2.0.1",
-    "referee": "^1.2.0"
+    "sinon": "^10.0.0",
+    "@sinonjs/referee": "^8.0.1"
   },
   "scripts": {},
   "engines": {
-    "node": ">= 6.0.0"
+    "node": ">= 16.0.0"
   },
   "licenses": [
     {
