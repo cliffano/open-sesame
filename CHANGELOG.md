@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Replace --name arg with --rule-name
+- Replace ipify with openapi_ipify
 - Change module type to ESM
 - Set min node engine to >= 16.0.0
 - Replace Travis CI with GH Actions

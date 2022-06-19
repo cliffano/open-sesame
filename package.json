@@ -36,7 +36,7 @@
     "aws-sdk": "^2.1157.0",
     "bagofcli": "^2.3.0",
     "cron": "^2.0.0",
-    "ipify": "^6.0.0"
+    "openapi_ipify": "^6.0.0"
   },
   "devDependencies": {
     "sinon": "^14.0.0",
