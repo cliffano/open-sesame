@@ -3,9 +3,10 @@
 
 - description: Command help should display help information
   command: '{opensesame} --help'
-  exitcode: 1
-  output: 'aaa'
+  exitcode: 0
+  output: 'Usage: open-sesame'
 
 - description: Command aws should display error message when security group does not exist
   command: '{opensesame} aws --region ap-southeast-2 --secgroup-id sg-12345678'
   exitcode: 1
+  output: 'Unable to find security group'
