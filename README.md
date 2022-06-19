@@ -1,11 +1,11 @@
 <img align="right" src="https://raw.github.com/cliffano/open-sesame/master/avatar.jpg" alt="Avatar"/>
 
-[![Build Status](https://img.shields.io/travis/cliffano/open-sesame.svg)](http://travis-ci.org/cliffano/open-sesame)
+[![Build Status](https://github.com/cliffano/open-sesame/workflows/CI/badge.svg)](https://github.com/cliffano/open-sesame/actions?query=workflow%3ACI)
+[![Vulnerabilities Status](https://snyk.io/test/github/cliffano/open-sesame/badge.svg)](https://snyk.io/test/github/cliffano/open-sesame)
 [![Dependencies Status](https://img.shields.io/david/cliffano/open-sesame.svg)](http://david-dm.org/cliffano/open-sesame)
 [![Coverage Status](https://img.shields.io/coveralls/cliffano/open-sesame.svg)](https://coveralls.io/r/cliffano/open-sesame?branch=master)
 [![Published Version](https://img.shields.io/npm/v/open-sesame.svg)](http://www.npmjs.com/package/open-sesame)
 <br/>
-[![npm Badge](https://nodei.co/npm/open-sesame.png)](http://npmjs.org/package/open-sesame)
 
 Open Sesame
 -----------
