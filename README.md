@@ -32,6 +32,8 @@ Add inbound rule with specified port and name:
 
     open-sesame aws --region ap-southeast-2 --secgroup-id sg-12345678 --port 22 --rule-name some-wi-fi
 
+Note: open-sesame 1.x.x uses `--name` arg instead of `--rule-name` .
+
 Add inbound rules to multiple security groups:
 
     open-sesame aws --region ap-southeast-2 --secgroup-id sg-12345678,sg-87654321
