@@ -8,7 +8,7 @@
     "ip",
     "ingress"
   ],
-  "version": "2.0.1-pre.0",
+  "version": "2.0.1",
   "homepage": "http://github.com/cliffano/open-sesame",
   "author": "Cliffano Subagio <blah@cliffano.com> (http://blog.cliffano.com)",
   "contributors": [
