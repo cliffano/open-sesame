@@ -38,6 +38,39 @@ Add inbound rules to multiple security groups:
 
     open-sesame aws --region ap-southeast-2 --secgroup-id sg-12345678,sg-87654321
 
+Permission
+----------
+
+You can use the example below to provision an IAM policy for Open Sesame to use:
+
+    {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "VisualEditor0",
+                "Effect": "Allow",
+                "Action": [
+                    "ec2:DescribeSecurityGroups"
+                ],
+                "Resource": [
+                    "*"
+                ]
+            },
+            {
+                "Sid": "VisualEditor1",
+                "Effect": "Allow",
+                "Action": [
+                    "ec2:RevokeSecurityGroupIngress",
+                    "ec2:AuthorizeSecurityGroupIngress"
+                ],
+                "Resource": [
+                    "arn:aws:ec2:<region>:<account_id>:security-group/sg-12345678901234567",
+                    "arn:aws:ec2:<region>:<account_id>:security-group/sg-1q2w3e4r5t6y7u8i9"
+                ]
+            }
+        ]
+    }
+
 Colophon
 --------
 
