@@ -14,7 +14,7 @@
   "contributors": [
     "All contributors (https://github.com/cliffano/open-sesame/graphs/contributors)"
   ],
-  "main": "./lib/jenkins",
+  "main": "./lib/open-sesame.js",
   "bin": {
     "open-sesame": "./bin/open-sesame.js"
   },
