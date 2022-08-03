@@ -64,8 +64,8 @@ You can use the example below to provision an IAM policy for Open Sesame to use:
                     "ec2:AuthorizeSecurityGroupIngress"
                 ],
                 "Resource": [
-                    "arn:aws:ec2:<region>:<account_id>:security-group/sg-12345678901234567",
-                    "arn:aws:ec2:<region>:<account_id>:security-group/sg-1q2w3e4r5t6y7u8i9"
+                    "arn:aws:ec2:<region>:<account_id>:security-group/sg-12345678",
+                    "arn:aws:ec2:<region>:<account_id>:security-group/sg-87654321"
                 ]
             }
         ]
