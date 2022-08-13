@@ -35,7 +35,6 @@
     "async": "^3.2.4",
     "aws-sdk": "^2.1194.0",
     "bagofcli": "^2.3.0",
-    "cron": "^2.1.0",
     "openapi_ipify": "^3.2.1"
   },
   "devDependencies": {

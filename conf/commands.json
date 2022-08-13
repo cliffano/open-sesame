@@ -3,7 +3,6 @@
     { "arg": "-p, --port <port>", "desc": "Port number of inbound rule, default: 22" },
     { "arg": "-o, --protocol <protocol>", "desc": "Protocol, default: tcp" },
     { "arg": "-d, --dry-run", "desc": "Dry run, default: false" },
-    { "arg": "-c, --cron <cron>", "desc": "Cron schedule expression" },
     { "arg": "-n, --rule-name <name>", "desc": "Inbound rule name, default: open-sesame" }
   ],
   "commands": {
