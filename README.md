@@ -74,12 +74,12 @@ You can use the example below to provision an IAM policy for Open Sesame to use:
 Colophon
 --------
 
-[Developer's Guide](http://cliffano.github.io/developers_guide.html#nodejs)
+[Developer's Guide](https://cliffano.github.io/developers_guide.html#nodejs)
 
 Build reports:
 
-* [Code complexity report](http://cliffano.github.io/open-sesame/complexity/plato/index.html)
-* [Unit tests report](http://cliffano.github.io/open-sesame/test/mocha.txt)
-* [Test coverage report](http://cliffano.github.io/open-sesame/coverage/c8/index.html)
-* [Integration tests report](http://cliffano.github.io/open-sesame/test-integration/cmdt.txt)
-* [API Documentation](http://cliffano.github.io/open-sesame/doc/jsdoc/index.html)
+* [Code complexity report](https://cliffano.github.io/open-sesame/complexity/plato/index.html)
+* [Unit tests report](https://cliffano.github.io/open-sesame/test/mocha.txt)
+* [Test coverage report](https://cliffano.github.io/open-sesame/coverage/c8/index.html)
+* [Integration tests report](https://cliffano.github.io/open-sesame/test-integration/cmdt.txt)
+* [API Documentation](https://cliffano.github.io/open-sesame/doc/jsdoc/index.html)
