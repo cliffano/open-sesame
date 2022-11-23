@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+- Upgrade openapi_ipify to 3.3.0
+
 ## 2.1.0 - 2022-08-13
 ### Removed
 - Remove cron support from feature plan
