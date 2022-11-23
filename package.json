@@ -33,13 +33,13 @@
   },
   "dependencies": {
     "async": "^3.2.4",
-    "aws-sdk": "^2.1194.0",
+    "aws-sdk": "^2.1260.0",
     "bagofcli": "^2.3.0",
-    "openapi_ipify": "^3.2.1"
+    "openapi_ipify": "^3.3.0"
   },
   "devDependencies": {
-    "sinon": "^14.0.0",
-    "@sinonjs/referee": "^9.1.1"
+    "sinon": "^14.0.2",
+    "@sinonjs/referee": "^9.1.2"
   },
   "scripts": {},
   "engines": {
