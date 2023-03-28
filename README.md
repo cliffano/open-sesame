@@ -12,7 +12,7 @@ Open Sesame
 
 Open Sesame is a CLI tool for adding your public IP address to AWS security group's inbound rules.
 
-This is handy when you're sitting behind a dynamic IP (e.g. you're using a Wi-Fi dongle) and would like to allow access to some AWS resources through a security group.
+This is handy when you're sitting behind a dynamic IP (e.g. you're using a Wi-Fi dongle) and would like to allow access from that IP to some AWS resources through a security group.
 
 ![Console command screenshot](https://raw.github.com/cliffano/open-sesame/master/screenshots/console.png)
 
@@ -47,7 +47,7 @@ You can use the example below to provision an IAM policy for Open Sesame to use:
         "Version": "2012-10-17",
         "Statement": [
             {
-                "Sid": "VisualEditor0",
+                "Sid": "OpenSesame0",
                 "Effect": "Allow",
                 "Action": [
                     "ec2:DescribeSecurityGroups"
@@ -57,7 +57,7 @@ You can use the example below to provision an IAM policy for Open Sesame to use:
                 ]
             },
             {
-                "Sid": "VisualEditor1",
+                "Sid": "OpenSesame1",
                 "Effect": "Allow",
                 "Action": [
                     "ec2:RevokeSecurityGroupIngress",
