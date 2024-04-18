@@ -32,14 +32,14 @@
     "test": "./test"
   },
   "dependencies": {
-    "async": "^3.2.4",
-    "aws-sdk": "^2.1260.0",
-    "bagofcli": "^2.3.0",
-    "openapi_ipify": "^3.3.0"
+    "async": "^3.2.5",
+    "aws-sdk": "^2.1601.0",
+    "bagofcli": "^2.4.1",
+    "openapi_ipify": "^5.2.0"
   },
   "devDependencies": {
-    "sinon": "^14.0.2",
-    "@sinonjs/referee": "^9.1.2"
+    "sinon": "^17.0.1",
+    "@sinonjs/referee": "^11.0.1"
   },
   "scripts": {},
   "engines": {
