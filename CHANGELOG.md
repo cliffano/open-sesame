@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 
 ### Changed
-- Upgrade openapi_ipify to 5.2.0
+- Upgrade openapi_ipify to 5.3.0
 - Set min node engine to >= 18.0.0
 
 ## 2.2.0 - 2022-11-23
