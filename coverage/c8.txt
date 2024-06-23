@@ -1,12 +1,15 @@
-test | /opt/hostedtoolcache/node/20.14.0/x64/lib/node_modules/bob/node_modules/.bin/mocha --colors --reporter spec --recursive test/
+(node:1904) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+test | /opt/hostedtoolcache/node/22.3.0/x64/lib/node_modules/bob/node_modules/.bin/mocha --colors --reporter spec --recursive test/
+(node:1916) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
 
 [0m[0m
-(node:1896) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+(node:1916) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
 on September 8, 2024 and reach end-of-support on September 8, 2025.
 
 Please migrate your code to use AWS SDK for JavaScript (v3).
 For more information, check blog post at https://a.co/cUPnyil
-(Use `node --trace-warnings ...` to show where the warning was created)
 [0m  cli - exec[0m
   [32m  [32m✔[39m[0m[90m should contain commands with actions[0m
 
